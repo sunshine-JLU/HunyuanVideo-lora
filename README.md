@@ -5,9 +5,9 @@ Follow these steps to get started quickly:
 1. **Clone the Repository**  
    Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/sunshine-JLU/deepseek-r1-distill-llama-8b-lora.git
+   git clone https://github.com/sunshine-JLU/HunyuanVideo-lora.git
 
-   cd deepseek-r1-distill-llama-8b-lora
+   cd HunyuanVideo-lora
 
    
 2. **Enviroment**  
@@ -29,7 +29,7 @@ Follow these steps to get started quickly:
 
 
 
-############################################################  END  OF QUICK START   ############################################################
+## End Of Quick Start
 
 # Orial project: Musubi Tuner
 
