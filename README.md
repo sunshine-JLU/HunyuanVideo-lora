@@ -1,4 +1,37 @@
-# Musubi Tuner
+## Quick Start
+
+Follow these steps to get started quickly:
+
+1. **Clone the Repository**  
+   Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/sunshine-JLU/deepseek-r1-distill-llama-8b-lora.git
+
+   cd deepseek-r1-distill-llama-8b-lora
+
+   
+2. **Enviroment**  
+   ```bash
+   pip install -r requirements.txt
+
+3. **Download the Model**  
+  Set the Hugging Face endpoint and download the deepseek-r1-distill-llama-8b model:
+   ```bash
+   HF_ENDPOINT=https://hf-mirror.com huggingface-cli download deepseek-ai/deepseek-r1-distill-llama-8b --local-dir ./deepseek-r1-distill-llama-8b --resume-download --cache-dir ./cache
+
+   #if you have trouble in downloading models from hf-mirror, you can use the modelscope.
+   
+   modelscope download --model deepseek-ai/DeepSeek-R1-Distill-Llama-8B --local_dir ./deepseek-r1-distill-llama-8b
+
+
+4. **Run the Notebook**  
+  Open and run the deepseek-r1-distill-llama-8b.ipynb notebook to start fine-tuning the model.
+
+
+
+############################################################  END  OF QUICK START   ############################################################
+
+# Orial project: Musubi Tuner
 
 [English](./README.md) | [日本語](./README.ja.md)
 
